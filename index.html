@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="一个简单易用的在线图片背景消除工具" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>图片背景消除工具</title>
+    <style>
+      .sample-image {
+        width: 100%;
+        max-height: 100px;
+        object-fit: cover;
+      }
+      .result-image {
+        width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
